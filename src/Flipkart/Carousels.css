@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgba(0, 0, 0, 0.068); */
+}
+/* .carmain{
+    background-color: rgba(107, 107, 107, 0.233);
+    background-color: red;
+    height: 280px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+} */
+.carouselmain{
+    background-color: rgba(107, 107, 107, 0.233);
+    /* background-color: red; */
+    height: 280px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+}
+.car{
+    height: 250px;
+    width: 1600px;
+}
+
+@media all and (max-width: 1650px){
+    .carouselmain{
+        width: 100%;
+    }
+    .car{
+        height: 250px;
+        width: 1250px;
+    }
+}
+
+@media all and (max-width: 1250px){
+    .car{
+        height: 250px;
+        width: 950px;
+    }
+}
+@media all and (max-width: 950px){
+
+    .carouselmain{
+        height: 180px;
+    }
+    .car{
+        height: 150px;
+        width: 700px;
+    }
+}
+@media all and (max-width: 700px){
+
+    .carouselmain{
+        height: 180px;
+    }
+    .car{
+        height: 150px;
+        width: 550px;
+    }
+}
+@media all and (max-width: 550px){
+
+    .carouselmain{
+        height: 120px;
+    }
+    .car{
+        /* margin-top: 10px; */
+        height: 150px;
+        width: 100%;
+    }
+}

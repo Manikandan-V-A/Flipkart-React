@@ -1,0 +1,99 @@
+.Product{
+    background-color: rgba(107, 107, 107, 0.233);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* overflow: auto;   */
+}
+.ProductBbox{
+    background-color: rgb(255, 255, 255);
+    width: 1600px;
+    height: 160px;
+    margin-top: 20px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ProductSbox{
+    /* background-color: rgb(255, 0, 0); */
+    width: 90px;
+    height: 80px;
+}
+.ProductSbox:hover{
+    /* background-color: rgb(255, 0, 0); */
+    height: 95px;
+    width: 95px;
+    filter: drop-shadow(1px 1px 15px blue);
+}
+.box{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    background-color: white;
+}
+.ProductsName{
+    /* background-color: blue; */
+    margin-top: 15px;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'inter_regular', 'fallback-inter_regular', Arial, sans-serif;
+}
+
+@media all and (max-width:1250px){
+
+    .Product{
+        background-color: rgba(107, 107, 107, 0.233);
+        display : flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: auto;
+    } 
+.ProductBbox{
+    background-color: rgb(255, 255, 255);
+    width: 1600px;
+    height: 160px;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* overflow: auto; */
+}
+}
+@media all and (max-width:600px){
+    .custom-btn {
+        display: none;
+    }
+    .Product{
+        background-color: rgba(107, 107, 107, 0.233);
+        display : flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: auto;
+    } 
+    .ProductBbox{
+        background-color: rgb(255, 255, 255);
+        width: 1200px;
+        height: 160px;
+        display : flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        /* overflow: auto; */
+    }
+    .ProductSbox{
+      height: 55px;
+      width: 55px;
+  }
+  .ProductSbox:hover{
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(1px 1px 15px blue);
+}
+    }

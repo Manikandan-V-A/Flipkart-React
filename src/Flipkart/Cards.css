@@ -1,0 +1,328 @@
+.Cardmain{
+    border: 1px solid rgba(71, 71, 71, 0.24);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    /* background-image: url(./assets/Carousels1.jpg);
+    background-size: cover; */
+    border-radius: 10px;
+
+}
+.Cardimg{
+    /* border: 5px solid rgb(72, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Productimg{
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+}
+.Productimg:hover{
+    /* background-color: rgb(255, 0, 0); */
+    height: 160px;
+    width: 160px;
+    /* box-shadow: 10px 10px 10px blue; */
+    filter: drop-shadow(1px 1px 15px rgb(0, 0, 255));
+}
+.details{
+    margin-top: 30px;
+    /* background-color: red; */
+    /* border: 3px solid rgb(0, 0, 0); */
+    
+}
+.descriptions{
+    font-size: 15px;
+    text-align: center;
+}
+.price{
+    font-size: 18px;
+    text-align: center;
+}
+.Font{
+    padding: 20px 0px 0px 20px;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'Roboto, Oxygen, Ubuntu, Cantarell', sans-serif;
+}
+.boe{
+    margin-top: 20px;
+    background-color: white;
+    width: 1600px;
+    /* padding: 10px 10%; */
+}
+.boe1{
+    /* margin-top: 10px; */
+    background-color: white;
+    width: 1600px;
+}
+/* .a1{
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(51, 255, 0);
+    border: 5px solid black;
+} */
+.a2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1600px;
+    background-color: rgb(255, 255, 255);
+
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(107, 107, 107, 0.233);
+}
+
+
+
+.cardmobilemain{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(107, 107, 107, 0.233);
+    overflow: auto;
+}
+.cardmobile1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1600px;
+    background-color: rgba(107, 107, 107, 0.233);
+}
+.cardmobile2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+}
+.cardmobile3{
+    background-image: url(../assets/iphonead.jpg);
+    background-size: cover;
+    width: 980px;
+    height: 710px;
+    margin-left: 20px;
+}
+
+
+.cardmobile11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1600px;
+    background-color: rgba(107, 107, 107, 0.233);
+}
+.cardmobile33{
+    background-image: url(../assets/laptopad.jpg);
+    background-size: contain;
+    width: 960px;
+    height: 710px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cardmobile22{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+.cardmobile44{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+.cardmobileind{
+    background-image: url(../assets/cricket.jpg);
+    background-size: contain;
+    width: 680px;
+    height: 710px;
+    margin-left: 20px;
+}
+
+
+.cardmobile32{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+}
+@media all and (max-width:1650px){
+    .cardmobile1{
+        justify-content: center;;
+        background-color: rgba(107, 107, 107, 0.233);
+    }
+    .cardmobile2{
+        justify-content: space-evenly;
+        width: 1250px;
+    }
+    .cardmobile3{
+        width: 1250px;
+        height: 680px;
+        margin-left: 0px;
+    }
+    .cardmobile22{
+        width: 1250px;
+    }
+    .cardmobile44{
+        width: 1250px;
+    }
+    .cardmobile33{
+        width: 1250px;
+        height: 805px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cardmobileind{
+        width: 1250px;
+        height: 1550px;
+        margin-left: 0px;
+    }
+    .cardmobile32{
+        width: 1250px;
+    }
+}
+
+@media all and (max-width:1250px){
+        .cardmobile1{
+            justify-content: center;;
+            /* background-color: rgb(255, 0, 0); */
+        }
+        .cardmobile2{
+            justify-content: space-evenly;
+            width: 900px;
+        }
+        .cardmobile3{
+            width: 900px;
+            height: 580px;
+            margin-left: 0px;
+        }
+        .cardmobile22{
+            width: 900px;
+        }
+        .cardmobile44{
+            width: 900px;
+        }
+        .cardmobile33{
+            width: 900px;
+            height: 405px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .cardmobileind{
+            width: 900px;
+            height: 1110px;
+            margin-left: 0px;
+        }
+        .cardmobile32{
+            width: 900px;
+        }
+    }
+@media all and (max-width:900px){
+    .cardmobile1{
+        justify-content: center;;
+        /* background-color: rgb(255, 0, 0); */
+    }
+    .cardmobile2{
+        justify-content: space-evenly;
+        width: 600px;
+    }
+    .cardmobile3{
+        width: 600px;
+        height: 580px;
+        margin-left: 0px;
+    }
+    .cardmobile22{
+        width: 600px;
+    }
+    .cardmobile44{
+        width: 600px;
+    }
+    .cardmobile33{
+        width: 600px;
+        height: 405px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cardmobileind{
+        width: 600px;
+        height: 580px;
+        margin-left: 0px;
+    }
+    .cardmobile32{
+        width: 600px;
+    }
+}
+@media all and (max-width:600px){
+    .cardmobile2{
+        width: 300px;
+    }
+    .cardmobile1{
+        justify-content: center;
+        /* background-color: rgb(255, 0, 0); */
+    }
+    .cardmobile22{
+        width: 300px;
+    }
+    .cardmobile44{
+        width: 300px;
+    }
+    .cardmobile3{
+        width: 300px;
+        height: 280px;
+        margin-left: 0px;
+    }
+    .cardmobile33{
+        width: 300px;
+        height: 280px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cardmobileind{
+        width: 300px;
+        height: 280px;
+        margin-left: 0px;
+    }
+    .cardmobile32{
+        width: 300px;
+    }
+
+    .a2{
+        width: 1410px;
+        background-color: rgb(255, 255, 255);
+    }
+    .a3{
+        display: block;
+        background-color: rgba(107, 107, 107, 0.233);
+        overflow: auto;
+    }
+}
+
